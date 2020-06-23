@@ -64,32 +64,34 @@ nav a {
 .grid-2-articles:nth-of-type(1),
 .grid-2-articles:nth-of-type(5),
 .grid-2-articles:nth-of-type(9),
-.community-links-grid:nth-child(1),
-.community-links-grid:nth-child(5) {
+.community-articles:nth-of-type(1),
+.community-articles:nth-of-type(5) {
     background: var(--grey1)
 }
 
 .grid-1-articles:nth-of-type(2),
 .grid-2-articles:nth-of-type(2),
 .grid-2-articles:nth-of-type(6),
-.community-links-grid:nth-child(2),
-.community-links-grid:nth-child(6) {
+.community-articles:nth-of-type(2),
+.community-articles:nth-of-type(6) {
     background: var(--grey2)
 }
 
 .grid-1-articles:nth-of-type(3),
 .grid-2-articles:nth-of-type(3),
 .grid-2-articles:nth-of-type(7),
-.community-links-grid:nth-child(3),
-.community-links-grid:nth-child(7) {
+
+.community-articles:nth-of-type(3),
+.community-articles:nth-of-type(7) {
     background: var(--grey3)
 }
 
 .grid-1-articles:nth-of-type(4),
 .grid-2-articles:nth-of-type(4),
 .grid-2-articles:nth-of-type(8),
-.community-links-grid:nth-child(4),
-.community-links-grid:nth-child(8) {
+.person-of-the-week,
+.community-articles:nth-of-type(4),
+.community-articles:nth-of-type(8) {
     background: var(--grey4)
 }
 
