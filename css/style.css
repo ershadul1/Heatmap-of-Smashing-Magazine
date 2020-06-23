@@ -301,8 +301,8 @@ nav ul li:last-of-type {
 
 .community-links-grid {
     display: grid;
-    height: 1834px;
-    grid-template-rows: repeat(4, 1fr);
+    height: 1600px;
+    grid-template-rows: 1fr repeat(3, 0.8fr);
     grid-template-columns: 1fr 1fr;
 }
 
@@ -321,8 +321,41 @@ nav ul li:last-of-type {
 }
 
 .person-of-the-week p {
-  width: 300px;
+  width: 67%;
+  float: right;
+  margin-right: 120px;
+  margin-top: 60px;
 }
+
+.person-of-the-week p span{
+    display: block;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.person-of-the-week p span:first-child{
+    font-variant: small-caps;
+}
+
+.community-articles > *:nth-child(1) {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.community-articles > *:nth-child(2) {
+    position: relative;
+    top: -20px;
+    left: 60px;
+}
+
+
+
+
+
+
+
+
 
 .design-systems-banner {
     height: 300px;
