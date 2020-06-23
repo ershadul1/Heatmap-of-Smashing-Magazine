@@ -63,25 +63,33 @@ nav a {
 .grid-1-articles:nth-of-type(1),
 .grid-2-articles:nth-of-type(1),
 .grid-2-articles:nth-of-type(5),
-.grid-2-articles:nth-of-type(9) {
+.grid-2-articles:nth-of-type(9),
+.community-links-grid:nth-child(1),
+.community-links-grid:nth-child(5) {
     background: var(--grey1)
 }
 
 .grid-1-articles:nth-of-type(2),
 .grid-2-articles:nth-of-type(2),
-.grid-2-articles:nth-of-type(6) {
+.grid-2-articles:nth-of-type(6),
+.community-links-grid:nth-child(2),
+.community-links-grid:nth-child(6) {
     background: var(--grey2)
 }
 
 .grid-1-articles:nth-of-type(3),
 .grid-2-articles:nth-of-type(3),
-.grid-2-articles:nth-of-type(7) {
+.grid-2-articles:nth-of-type(7),
+.community-links-grid:nth-child(3),
+.community-links-grid:nth-child(7) {
     background: var(--grey3)
 }
 
 .grid-1-articles:nth-of-type(4),
 .grid-2-articles:nth-of-type(4),
-.grid-2-articles:nth-of-type(8) {
+.grid-2-articles:nth-of-type(8),
+.community-links-grid:nth-child(4),
+.community-links-grid:nth-child(8) {
     background: var(--grey4)
 }
 
@@ -97,4 +105,19 @@ nav a {
     height: 167px;
     background-color: lightgray;
     text-align: center;
+}
+
+.new-book-section {
+    height: 1084px;
+}
+
+.community-links-grid {
+    display: grid;
+    height: 1834px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+}
+
+.person-of-the-week {
+    grid-column: 1/3;
 }
