@@ -109,12 +109,17 @@ nav ul li:last-of-type {
     top: 145px;
     left: calc((100% - 410px)/2);
     text-align: center;
-    background-color: white;
     font-size: 2.2rem;
     line-height: 3rem;
     padding-bottom: 0.75rem;
     padding-top: 0.3rem;
 }
+
+.article-grid-1-title > span {
+    box-shadow: 12px 10px white, -12px 10px white, 12px -8px white, -12px -8px white;
+    background: white;
+}
+
 
 .grid-1-articles:nth-of-type(1),
 .grid-1-articles:nth-of-type(2) {
