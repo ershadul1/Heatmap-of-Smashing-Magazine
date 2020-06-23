@@ -31,6 +31,7 @@ nav a {
     flex: 1;
     text-align: center;
     text-justify: center;
+    text-decoration: none;
 }
 
 .smashing-magazine-logo {
@@ -42,6 +43,26 @@ nav a {
 
 .search-bar {
     width: 350px;
+}
+
+.to-top-arrow {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+    transform: rotate(-15deg);
+}
+
+.to-top-arrow img {
+    width: 25px;
+    height: 25px;
+}
+
+.to-top-arrow:hover {
+    transform: rotate(0deg);
+    background-color: rgba(0,0,0,0.6);
 }
 
 .article-grid-1 {
@@ -165,13 +186,33 @@ footer h4 {
     margin: 28px 0px;
 }
 
-.site-links {
+.footer-topics {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.site-links li {
+.footer-topics li {
     flex-basis: auto;
     font-size: 50px;
+    list-style-type: none;
+}
+
+.footer-notes {
+    width: 100%;
+    height: 22px;
+    background-color: lightgray;
+    margin-bottom: 5px;
+}
+.footer-links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links li {
+    list-style-type: none;
 }
