@@ -14,9 +14,9 @@
 
 
 header {
-    display: flex;
-    justify-content: center;
-    padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px 20px 40px;
     height: 100px;
 }
 
@@ -114,6 +114,56 @@ nav ul li:last-of-type {
     line-height: 3rem;
     padding-bottom: 0.75rem;
     padding-top: 0.3rem;
+}
+
+.grid-1-articles:nth-of-type(1),
+.grid-1-articles:nth-of-type(2) {
+    padding-top: 200px;
+    padding-left: 70px;
+    
+}
+
+.author-image {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+    transform: rotate(-15deg);
+}
+
+.article-author{
+  width: 100px;
+  font-size: 19px;
+  position: relative; 
+  left: 20px;
+  bottom: 40px;
+}
+
+.article-title {
+  width: 85%;
+  height: 160px;
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.article-tools {
+    margin-top: 20px;
+}
+
+.article-tools li {
+  display: inline;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.go-to-article-arrow {
+  width: 50px;
+  height: 40px;
+  background-color: rgba(0,0,0,0.6);
+  margin-top: 60px;
 }
 
 .most-important,
