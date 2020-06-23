@@ -153,3 +153,25 @@ nav a {
     justify-self: center;
     margin-top: 40px;
 }
+
+footer {
+    padding-top: 45px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer h4 {
+    text-align: center;
+    margin: 28px 0px;
+}
+
+.site-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site-links li {
+    flex-basis: auto;
+    font-size: 50px;
+}
