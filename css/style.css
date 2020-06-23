@@ -81,42 +81,27 @@ nav a {
     left: calc((100%-200px)/2);
 }
 
-.grid-1-articles:nth-of-type(1),
-.grid-2-articles:nth-of-type(1),
-.grid-2-articles:nth-of-type(5),
-.grid-2-articles:nth-of-type(9),
-.community-articles:nth-of-type(1),
-.community-articles:nth-of-type(5),
-.design-systems, 
-.our-guides-container:nth-of-type(1) {
+.most-important,
+.more-important,
+.less-important,
+.least-important {
+    border: 0.5px solid black; 
+}
+
+
+.most-important {
     background: var(--grey1)
 }
 
-.grid-1-articles:nth-of-type(2),
-.grid-2-articles:nth-of-type(2),
-.grid-2-articles:nth-of-type(6),
-.community-articles:nth-of-type(2),
-.community-articles:nth-of-type(6),
-.our-guides-container:nth-of-type(2) {
+.more-important {
     background: var(--grey2)
 }
 
-.grid-1-articles:nth-of-type(3),
-.grid-2-articles:nth-of-type(3),
-.grid-2-articles:nth-of-type(7),
-.community-articles:nth-of-type(3),
-.community-articles:nth-of-type(7),
-.our-guides-container:nth-of-type(3) {
+.less-important  {
     background: var(--grey3)
 }
 
-.grid-1-articles:nth-of-type(4),
-.grid-2-articles:nth-of-type(4),
-.grid-2-articles:nth-of-type(8),
-.person-of-the-week,
-.community-articles:nth-of-type(4),
-.community-articles:nth-of-type(8),
-.our-guides-container:nth-of-type(4) {
+.least-important {
     background: var(--grey4)
 }
 
