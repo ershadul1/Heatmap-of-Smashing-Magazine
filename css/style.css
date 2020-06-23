@@ -4,3 +4,38 @@
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px 50px 40px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-justify: center;
+}
+
+.smashing-magazine-logo {
+    width: 180px;
+    height: auto;
+    margin-top: -70px;
+    margin-bottom: -70px;
+}
+
+.top-article-grid {
+    height: 1000px;
+}
+
+.search-bar {
+    width: 350px;
+}
