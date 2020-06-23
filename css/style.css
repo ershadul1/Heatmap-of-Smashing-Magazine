@@ -5,10 +5,18 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+:root {
+  --grey1: rgba(0,0,0,0.3);
+  --grey2: rgba(0,0,0,0.4);
+  --grey3: rgba(0,0,0,0.5);
+  --grey4: rgba(0,0,0,0.6);
+}
+
+
 header {
     display: flex;
     justify-content: center;
-    padding: 30px 40px 50px 40px;
+    padding: 30px 40px 33px 40px;
 }
 
 nav {
@@ -32,10 +40,38 @@ nav a {
     margin-bottom: -70px;
 }
 
-.top-article-grid {
-    height: 1000px;
-}
-
 .search-bar {
     width: 350px;
+}
+
+.top-article-grid {
+    width: 100%;
+    background: var(--grey1);
+    height: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.latest-articles-title {
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: calc((100%-200px)/2);
+}
+
+.latest-articles1 {
+    background: var(--grey1)
+}
+
+.latest-articles2 {
+    background: var(--grey2)
+}
+
+.latest-articles3 {
+    background: var(--grey3)
+}
+
+.latest-articles4 {
+    background: var(--grey4)
 }
