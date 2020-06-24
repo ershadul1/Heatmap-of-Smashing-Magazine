@@ -184,13 +184,6 @@ nav ul li:last-of-type {
   margin-top: 60px;
 }
 
-.most-important,
-.more-important,
-.less-important,
-.least-important {
-    border: 0.5px solid black; 
-}
-
 
 .most-important {
     background: var(--grey1)
@@ -253,39 +246,53 @@ nav ul li:last-of-type {
 
 
 .page-break {
-    height: 167px;
+    height: 130px;
     background-color: lightgray;
     text-align: center;
     padding-top: 25px;
 }
 
+/* New book section*/
+
 .new-book-section {
     height: 1084px;
-    border: 1px solid black;
+    background-color: var(--grey1);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.new-book-section *:nth-child(1) {
-    font-size: 25px;
-    width: 19%;
+.new-book-section > * {
+    color: rgba(255,255,255,0.3);
+}
+
+.new-book-section-date {
+    font-size: 17px;
     margin: 0 auto;
     text-align: center;
+    text-justify: center;
     margin-top: 30px;
+    font-variant: small-caps;
+    background-color: transparent;
+    letter-spacing: 0.1em;
 }
 
-.new-book-section *:nth-child(2) {
-    height: 90px;
-    width: 40%;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 20px;
-}
-
-.new-book-section *:nth-child(3) {
-    height: 90px;
-    width: 55%;
-    margin: 0 auto;
+.new-book-section-title {
+    width: 60%;
+    margin-top: 30px;
+    font-size: 3.3em;
     text-align: center;
-    margin-top: 20px;
+    letter-spacing: 0.025em;
+}
+
+.new-book-section-subtitle {
+    margin-top: 30px;
+    font-size: 1.5em;
+    width: 55%;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .new-book-section div {
