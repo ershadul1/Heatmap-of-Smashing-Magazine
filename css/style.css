@@ -6,12 +6,18 @@
 }
 
 :root {
-  --grey1: rgba(0,0,0,0.3);
-  --grey2: rgba(0,0,0,0.4);
-  --grey3: rgba(0,0,0,0.5);
-  --grey4: rgba(0,0,0,0.6);
+  --grey1: rgb(33,33,33);
+  --grey2: rgb(66,66,66);
+  --grey3: rgb(100,100,100);
+  --grey4: rgb(133,133,133);
+  --grey5: rgb(166,166,166);
+  --grey6: rgb(200,200,200);
 }
 
+.text-cover {
+    color: transparent;
+    text-decoration: none;
+}
 
 header {
   display: flex;
@@ -41,8 +47,6 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    background: grey;
     border-radius: 10px;
     padding: 10px 0px; 
     font-size: 1.3rem;
@@ -52,7 +56,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav ul li:last-of-type {
@@ -116,8 +120,8 @@ nav ul li:last-of-type {
 }
 
 .article-grid-1-title > span {
-    box-shadow: 12px 10px white, -12px 10px white, 12px -8px white, -12px -8px white;
-    background: white;
+    box-shadow: 10px 10px var(--grey1), -10px 10px var(--grey1), 10px -10px var(--grey1), -10px -10px var(--grey1);
+    
 }
 
 .grid-1-articles {
@@ -139,7 +143,6 @@ nav ul li:last-of-type {
     width: 80px;
     height: 80px;
     border-radius: 10px;
-    background-color: rgba(0,0,0,0.3);
     transform: rotate(-15deg);
 }
 
@@ -149,7 +152,6 @@ nav ul li:last-of-type {
   position: relative; 
   left: 20px;
   bottom: 40px;
-  color: var(--most-important);
   text-decoration: none;
 }
 
@@ -193,12 +195,20 @@ nav ul li:last-of-type {
     background: var(--grey2)
 }
 
-.less-important  {
+.normal-important {
     background: var(--grey3)
 }
 
-.least-important {
+.not-important {
     background: var(--grey4)
+}
+
+.less-important  {
+    background: var(--grey5)
+}
+
+.least-important {
+    background: var(--grey6)
 }
 
 .article-grid-2 {
@@ -220,7 +230,6 @@ nav ul li:last-of-type {
 }
 
 .grid-2-articles > h3 {
-    text-decoration: underline;
     font-size: 30px;
     margin-bottom: 30px;
 }
