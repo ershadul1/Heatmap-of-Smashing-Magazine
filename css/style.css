@@ -2,89 +2,89 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Mija;
+  font-family: Mija, sans-serif;
 }
 
 :root {
-  --grey1: rgb(33,33,33);
-  --grey2: rgb(66,66,66);
-  --grey3: rgb(100,100,100);
-  --grey4: rgb(133,133,133);
-  --grey5: rgb(166,166,166);
-  --grey6: rgb(200,200,200);
+  --grey1: rgb(33, 33, 33);
+  --grey2: rgb(66, 66, 66);
+  --grey3: rgb(100, 100, 100);
+  --grey4: rgb(133, 133, 133);
+  --grey5: rgb(166, 166, 166);
+  --grey6: rgb(200, 200, 200);
 }
 
 .text-cover {
-    color: transparent;
-    text-decoration: none;
+  color: transparent;
+  text-decoration: none;
 }
 
 header {
   display: flex;
   justify-content: center;
   padding: 20px 40px 20px 40px;
-    height: 100px;
+  height: 100px;
 }
 
 nav {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 nav ul {
-    display: flex;
-    width: 100%;
-    list-style-type: none;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  align-items: center;
 }
 
 nav ul li {
-    flex-basis: auto;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    padding: 10px 0px; 
-    font-size: 1.3rem;
-    font-weight: 800;
-    height: 80%;
+  flex-basis: auto;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 0; 
+  font-size: 1.3rem;
+  font-weight: 800;
+  height: 80%  
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 nav ul li:last-of-type {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .smashing-magazine-logo {
-    width: 180px;
-    height: auto;
-    margin-top: -60px;
-    margin-bottom: -70px;
+  width: 180px;
+  height: auto;
+  margin-top: -60px;
+  margin-bottom: -70px;
 }
 
 .search-bar {
-    width: 350px;
-    border-radius: 10px;
-    background: url("./assets/images/search-black.svg");
-    background-size: 100%;
+  width: 350px;
+  border-radius: 10px;
+  background: url("./assets/images/search-black.svg");
+  background-size: 100%;
 }
 
 .to-top-arrow {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.3);
-    transform: rotate(-15deg);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.3);
+  transform: rotate(-15deg);
 }
 
 .to-top-arrow img {
@@ -215,7 +215,7 @@ nav ul li:last-of-type {
     display: grid;
     height: 2715px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1.5fr 1.8fr;
+    grid-template-rows: 1fr 1.5fr 1.5fr;
 }
 
 .grid-2-articles {
@@ -259,7 +259,6 @@ nav ul li:last-of-type {
 
 .new-book-section {
     height: 1084px;
-    background-color: var(--grey1);
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -278,7 +277,6 @@ nav ul li:last-of-type {
     text-justify: center;
     margin-top: 30px;
     font-variant: small-caps;
-    background-color: transparent;
     letter-spacing: 0.1em;
 }
 
@@ -321,7 +319,7 @@ nav ul li:last-of-type {
     width: 220px;
     height: 220px;
     position: relative;
-    left: 50px;
+    left: 60px;
     top: 70px;
     transform: rotate(-15deg);
 }
@@ -341,6 +339,7 @@ nav ul li:last-of-type {
 
 .person-of-the-week p span:first-child{
     font-variant: small-caps;
+    width: 20%;
 }
 
 .community-article {
@@ -351,7 +350,6 @@ nav ul li:last-of-type {
     width: 80px;
     height: 80px;
     border-radius: 10px;
-    background-color: rgba(0,0,0,0.3);
     transform: rotate(-15deg);
     float: left;
 }
@@ -364,8 +362,6 @@ nav ul li:last-of-type {
 
 .community-article-author span {
     font-size: 1.3rem;
-    color: transparent;
-    background-color: var(--grey2);
 }
 
 .community-article-header {
@@ -374,20 +370,13 @@ nav ul li:last-of-type {
 
 .community-article-header span {
     font-size: 2.2rem;
-    color: transparent;
-    background-color: var(--grey1);
 }
 
 .community-article-description {
   font-size: 1.3rem;
-  color: transparent;
   margin-top: 20px;
-  
 }
 
-.community-article-description span {
-    background-color: var(--grey1);
-}
 /* Latest articles page break */
 
 .latest-articles-page-break, 
@@ -438,7 +427,6 @@ nav ul li:last-of-type {
 .our-guides-link {
     width: 400px;
     height: 50px;
-    background-color: var(--grey2);
     border-radius: 10px;
     margin-top: 25px;
     margin-left: 3px;
@@ -454,14 +442,7 @@ nav ul li:last-of-type {
     top: -100px;
     width: 260px;
     height: 350px;
-    background: rgba(0,0,0,0.2);
     transform: rotate(-12deg);
-}
-
-.design-systems-banner span,
-.our-guides-section div span {
-    color: transparent;
-    background-color: var(--grey4);
 }
 
 .our-guides-section {
@@ -510,7 +491,6 @@ nav ul li:last-of-type {
   width: 300px;
   height: 300px;
   border-radius: 100%;
-  background-color: var(--grey1);
 }
 
 .newsletter-title,
@@ -547,7 +527,6 @@ nav ul li:last-of-type {
     flex: 1;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: var(--grey3);
 }
 
 .newsletter-footer {
@@ -556,23 +535,18 @@ nav ul li:last-of-type {
     width: 70%;
     text-align: center;
     line-height: 1.2em;
-    background-color: var(--grey4);
     border-radius: 5px;
     padding: 10px;
 }
 
-.all-guides-page-break {
-
-}
-
 footer {
     padding-top: 45px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 footer h4 {
@@ -592,11 +566,10 @@ footer h4 span {
     font-size: 1.7rem;
     margin-top: 60px;
     margin-bottom: 90px;
+    width: 90%;
 }
 
 .footer-topics span {
-    background-color: var(--grey3);
-    color: transparent;
     margin-left: 7px;
     margin-right: 7px;
     margin-bottom: 5px;
