@@ -410,7 +410,8 @@ nav ul li:last-of-type {
     padding-right: 150px;
 }
 
-.design-systems-small-title {
+.design-systems-small-title,
+.our-guides-small-title {
     font-size: 1.5em;
     font-variant: small-caps;
     letter-spacing: 0.05em;
@@ -429,7 +430,8 @@ nav ul li:last-of-type {
     line-height: 1.45em;
 }
 
-.design-systems-link {
+.design-systems-link,
+.our-guides-link {
     width: 400px;
     height: 50px;
     background-color: var(--grey2);
@@ -452,7 +454,8 @@ nav ul li:last-of-type {
     transform: rotate(-12deg);
 }
 
-.design-systems-banner span {
+.design-systems-banner span,
+.our-guides-section div span {
     color: transparent;
     background-color: var(--grey4);
 }
@@ -460,17 +463,41 @@ nav ul li:last-of-type {
 .our-guides-section {
     display: grid;
     width: 100%;
+    padding: 30px;
     grid-template-rows: 585px 850px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
+.our-guides-container {
+  border-radius: 15px;
+  padding: 50px;
+
+}
+
+.our-guides-large-title  {
+  width: 85%;
+  font-size: 3.2em;
+  margin-top: 10px;
+}
+
+.our-guides-description {
+    width: 90%;
+    margin-top: 20px;
+}
 .our-guides-container:last-of-type {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     width: 45%;
     justify-self: center;
     margin-top: 40px;
+}
+
+.circle-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  background-color: var(--grey1);
 }
 
 footer {
