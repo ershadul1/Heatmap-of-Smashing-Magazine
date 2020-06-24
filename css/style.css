@@ -397,12 +397,6 @@ nav ul li:last-of-type {
     margin-left: 0.5em;
 }
 
-
-
-
-
-
-
 .design-systems-banner {
     padding-left: 75px;
     padding-top: 45px;
@@ -461,8 +455,8 @@ nav ul li:last-of-type {
 }
 
 .our-guides-section {
-    display: grid;
     width: 100%;
+    display: grid;
     padding: 30px;
     grid-template-rows: 585px 850px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -476,7 +470,6 @@ nav ul li:last-of-type {
 }
 
 .our-guides-large-title  {
-  width: 85%;
   font-size: 3.2em;
   margin-top: 10px;
 }
@@ -485,6 +478,12 @@ nav ul li:last-of-type {
     width: 90%;
     margin-top: 20px;
 }
+
+.our-guides-container .our-guides-link {
+    width: auto;
+}
+
+
 .our-guides-container:last-of-type {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
@@ -492,6 +491,8 @@ nav ul li:last-of-type {
     justify-self: center;
     margin-top: 40px;
 }
+
+
 
 .circle-image {
   width: 250px;
