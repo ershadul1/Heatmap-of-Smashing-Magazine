@@ -116,7 +116,7 @@ nav ul li:last-of-type {
 
 .article-grid-1-title {
   position: absolute;
-  display: inline;
+  width: 410px;
   top: 145px;
   left: calc((100% - 410px) / 2);
   text-align: center;
