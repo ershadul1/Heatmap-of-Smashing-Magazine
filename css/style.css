@@ -259,10 +259,6 @@ nav ul li:last-of-type {
     padding-top: 25px;
 }
 
-.page-break a {
-    padding: 25px 0px 25px 0px;
-}
-
 .new-book-section {
     height: 1084px;
     border: 1px solid black;
@@ -349,7 +345,16 @@ nav ul li:last-of-type {
     left: 60px;
 }
 
+/* Latest articles page break */
 
+.latest-articles-page-break {
+    background-color: transparent;
+}
+
+.latest-articles-page-break-text {
+    letter-spacing: 0.7px;
+    font-size: 0.9em;
+}
 
 
 
