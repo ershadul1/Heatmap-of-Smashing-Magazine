@@ -382,18 +382,19 @@ nav ul li:last-of-type {
 /* Latest articles page break */
 
 .latest-articles-page-break, 
-.twitter-page-break {
+.twitter-page-break,
+.all-guides-page-break {
     background-color: transparent;
 }
 
 .latest-articles-page-break-text,
-.twitter-page-break-text {
+.twitter-page-break-text,
+.all-guides-page-break-text {
     letter-spacing: 0.7px;
     font-size: 0.9em;
 }
 
-.latest-articles-page-break-text i,
-.twitter-page-break-text i {
+.page-break-text i {
     margin-left: 0.5em;
 }
 
@@ -458,14 +459,14 @@ nav ul li:last-of-type {
     width: 100%;
     display: grid;
     padding: 30px;
-    grid-template-rows: 585px 850px;
+    grid-template-rows: 585px auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
 }
 
 .our-guides-container {
   border-radius: 15px;
-  padding: 50px;
+  padding: 50px 40px;
 
 }
 
@@ -484,21 +485,75 @@ nav ul li:last-of-type {
 }
 
 
-.our-guides-container:last-of-type {
+.newsletter-container {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    width: 45%;
+    width: 37%;
     justify-self: center;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-
-
 .circle-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 250px;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
   background-color: var(--grey1);
+}
+
+.newsletter-title,
+.newsletter-description {
+    align-self: flex-start;
+}
+
+.newsletter-title {
+    margin-top: 50px;
+    font-size: 3.25em;
+}
+
+.newsletter-description {
+    margin-top: 50px;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+.newsletter-input {
+    margin-top: 20px;
+    align-self: stretch;
+    height: 60px;
+    display: flex;
+}
+
+.newsletter-text-field {
+    flex: 2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+}
+
+.newsletter-button {
+    flex: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--grey3);
+}
+
+.newsletter-footer {
+    margin-top: 20px;
+    font-size: 1em;
+    width: 70%;
+    text-align: center;
+    line-height: 1.2em;
+    background-color: var(--grey4);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.all-guides-page-break {
+
 }
 
 footer {
