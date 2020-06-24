@@ -206,7 +206,6 @@ nav ul li:last-of-type {
     height: 2715px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1.5fr 1.8fr;
-    padding-bottom: 100px;
 }
 
 .grid-2-articles {
@@ -241,15 +240,10 @@ nav ul li:last-of-type {
     line-height: 30px;
 }
 
-
-
-
-
 .page-break {
-    height: 130px;
     background-color: lightgray;
     text-align: center;
-    padding-top: 25px;
+    padding: 100px;
 }
 
 /* New book section*/
@@ -387,13 +381,20 @@ nav ul li:last-of-type {
 }
 /* Latest articles page break */
 
-.latest-articles-page-break {
+.latest-articles-page-break, 
+.twitter-page-break {
     background-color: transparent;
 }
 
-.latest-articles-page-break-text {
+.latest-articles-page-break-text,
+.twitter-page-break-text {
     letter-spacing: 0.7px;
     font-size: 0.9em;
+}
+
+.latest-articles-page-break-text i,
+.twitter-page-break-text i {
+    margin-left: 0.5em;
 }
 
 
@@ -403,7 +404,57 @@ nav ul li:last-of-type {
 
 
 .design-systems-banner {
-    height: 300px;
+    padding-left: 75px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 150px;
+}
+
+.design-systems-small-title {
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    word-spacing: 0.07em;
+}
+
+.design-systems-large-title {
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+.design-systems-description {
+    width: 65%;
+    margin-top: 20px;
+    font-size: 1.25em;
+    line-height: 1.45em;
+}
+
+.design-systems-link {
+    width: 400px;
+    height: 50px;
+    background-color: var(--grey2);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 3px;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-systems-image {
+    float: right;
+    position: relative;
+    top: -100px;
+    width: 260px;
+    height: 350px;
+    background: rgba(0,0,0,0.2);
+    transform: rotate(-12deg);
+}
+
+.design-systems-banner span {
+    color: transparent;
+    background-color: var(--grey4);
 }
 
 .our-guides-section {
