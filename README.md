@@ -49,7 +49,7 @@ Once the contents of this repository are on your computer, just open index.html 
 - Github: [@ershadul1](https://github.com/ershadul1)
 - Email:  ershadul.rayhan@gmail.com
 - Twitter: [@ErshadulRayhan](https://twitter.com/ErshadulRayhan)
-- Linkedin: [ErshadulRayhan](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
+- Linkedin: [ErshadulRayhan](https://www.linkedin.com/in/ershadulrayhan/)
 
 ## 🤝 Contributing
 
